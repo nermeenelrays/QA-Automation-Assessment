@@ -17,7 +17,7 @@ describe('General Store Mobile Automation', function () {
                 platformName: 'Android',
                 'appium:automationName': 'UiAutomator2',
                 'appium:app': process.cwd() + '/General-Store.apk',
-                'appium:appWaitActivity': '*' // <-- THE MAGIC WILDCARD!
+                'appium:appWaitActivity': '*' 
             }
         });
         
